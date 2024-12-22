@@ -16,7 +16,7 @@
 
         <!-- Search Form -->
         <form action="{{ route('modem.search') }}" method="GET" class="mb-3">
-            <p>Action URL: {{ route('modem.search') }}</p>
+            {{-- <p>Action URL: {{ route('modem.search') }}</p> --}}
             <div class="input-group">
                 <input type="text" name="query" class="form-control" placeholder="Cari berdasarkan nama atau lokasi..." value="{{ request('query') }}">
                 <button type="submit" class="btn btn-secondary">Cari</button>
